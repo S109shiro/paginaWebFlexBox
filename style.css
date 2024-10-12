@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    background-color: orangered;
+}
+
+.encabezado {
+    padding: 5px;
+    margin-top: 5px;
+    background-color: rgb(252, 173, 144);
+    color: black;
+    font-size: 20px;
+    height: 80px;
+    padding-bottom: 20px;
+}
+
+.encabezado img {
+    float: left;
+    margin-right: 10px;
+    padding: 8px;
+}
+
+.barra {
+    padding: 1px;
+    letter-spacing: 1px;
+    word-spacing: 40px;
+}
+
+.barra li{
+    display: inline;
+}
+
+.barra a {
+    text-decoration: none;
+    color: white;
+}
+
+.barra a:hover {
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+.banner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: whitesmoke;
+
+}
+
+.surface {
+    font-size: 30px;
+}
+
+.corchetes{
+    color: blue;
+}
+
+.banner img {
+   max-width: 50%;
+   margin-left: 100px;
+}
+
+.principal {
+    background-color: gainsboro;
+   
+}
+
+.productos{
+    margin: 0 auto;
+    width: 1300px;
+    padding: 30px;
+    
+}
+
+.caja {
+    background-color: white;
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+.carrito:hover {
+    transition: 0.5s;
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.redes {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.redes li{
+    display: inline;
+}
+
+.redes ul li a img {
+    width: 60px;
+}
+
+.redes ul li a img:hover {
+   transform: scale(1.1);
+}
+
+.footer-container{
+    background-color: rgb(128, 120, 105);
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.footer-column ul{
+    padding: 0;
+}
+
+.footer-column li, a{
+    text-decoration: none;
+    list-style: none;
+}
+
